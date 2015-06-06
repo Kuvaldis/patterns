@@ -2,6 +2,7 @@ package kuvaldis.pattern;
 
 import java.util.Arrays;
 
+// filter in servlet containers for instance
 public class ChainOfResponsibility {
 
     private static class Person {
