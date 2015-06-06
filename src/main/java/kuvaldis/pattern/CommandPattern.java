@@ -3,7 +3,7 @@ package kuvaldis.pattern;
 // decouples invoker and receiver
 // for instance executor services (there is no receiver in case of just runnable,
 // but you can extend it with a param, so it basically a command in this case)
-public class Command {
+public class CommandPattern {
 
     // invoker
     private static class Performer {

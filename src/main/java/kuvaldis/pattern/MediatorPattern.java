@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 // let you communicate between colleagues within a group with a mediator.
 // every colleague doesn't have to keep links to all the others in the group, it'll do mediator,
 // so to perform some action on other colleagues/or concrete colleague the colleague perform an action on mediator.
-public class Mediator {
+public class MediatorPattern {
 
     private static abstract class Colleague {
         private final String name;
