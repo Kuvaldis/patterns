@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // lets you adapt existing unmodifiable class to some interface
-public class Adapter {
+public class AdapterPattern {
 
     private interface Printer {
         void print();
